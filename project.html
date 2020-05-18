@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iphone for Sale</title>
+	<link rel="stylesheet" type="text/css" href="project.css">
+</head>
+<body>
+	
+<div class="ss-area">
+	<div class="slides fade">
+	<img src="image1.jpg" style="width: 100%;height: 300px">
+	<div class="caption1"><h1>Iphone 11</h1><p>The best phone in town is here<br> with it's newest features.</p><h5>Buy Now</h5></div>
+    </div>
+
+    <div class="slides fade">
+	<img src="image3.jpg" style="width: 100%;height: 300px">
+	<div class="caption2"><strong>Camera Upgrade<br>New Bionic Chip<br>256gb Storage</strong></div>
+    </div>
+
+    <div class="slides fade">
+	<img src="image2.jpg" style="width: 100%;height: 300px">
+	<div class="caption3">We are a <strong>TRUSTED</strong> distributor of Iphones</div>
+    </div>
+
+ 
+    <a class="prev" onclick="pushSlide(-1)">&#10094;</a>
+    <a class="next" onclick="pushSlide(1)">&#10095;</a>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(2)"></span>
+  <span class="dots" onclick="currentSlide(3)"></span>
+
+</div>
+
+<img id="cartImage" src="pay.png"> <p>Your Cart</p>
+<div class="container">
+<div class="textImage1">
+	<img id="image1" src="iphone1.jfif">
+	<p> Iphone 11 ($500)<p>
+	<button id="addCart1" class="modal1">Add to Cart</button>
+</div>
+<div class="textImage2">
+	<img id="image2" src="iphone3.jfif">
+	<p> Iphone 11 Pro ($900)</p>
+	<button id="addCart2" class="modal2">Add to Cart</button>
+</div>
+<div class="textImage3">
+	<img id="image3" src="iphone2.jfif">
+	<p> Iphone 11 Pro Max ($1,100)</p>
+	<button id="addCart3" class="modal3">Add to Cart</button>
+</div>
+<div class="textImage4">
+	<img id="image4" src="iphone4.jfif">
+	<p> Iphone Xs Max ($400)</p>
+	<button id="addCart4" class="modal3">Add to Cart</button>
+</div>
+<div class="textImage5">
+	<img id="image5" src="iphone5.jfif">
+	<p> Iphone Xr ($350)</p>
+	<button id="addCart5" class="modal3">Add to Cart</button>
+</div>
+</div>
+</div>
+<div id="myModal" class="modal">
+	<div class="modal-content">
+		<span class="close">&times;</span>
+		<p id="change">You don't have items in the cart</p>
+	</div>
+</div>
+<div id="myModalss" class="modals">
+	<div class="modal-contents">
+		<span class="closed">&times;</span>
+		<p id="success">You have successfully added this to cart</p>
+	</div>
+</div>
+
+<script type="text/javascript" src="project.js"></script>
+</body>
+</html>
